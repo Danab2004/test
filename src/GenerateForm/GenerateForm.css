@@ -1,0 +1,59 @@
+/* DynamicForm.css */
+.dynamic-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-label {
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="date"],
+  select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 8px;
+  }
+  
+  input:focus,
+  select:focus {
+    border-color: #4a90e2;
+    outline: none;
+  }
+  
+  .submit-button {
+    padding: 10px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4a90e2;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #357abd;
+  }
+  
