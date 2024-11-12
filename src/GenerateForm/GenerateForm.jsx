@@ -12,6 +12,8 @@ const DynamicForm = ({ originalSchema }) => {
       type: originalSchema.type,
       form: formData,
     };
+        console.log(submissionData);
+
   };
 
   useEffect(() => {
