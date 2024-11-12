@@ -1,54 +1,42 @@
-/* FileUpload.css */
-.file-upload-container {
-    max-width: 600px;
-    margin: 40px auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .file-upload-title {
-    font-size: 24px;
-    color: #333;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .file-input {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    color: #333;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-bottom: 20px;
-    cursor: pointer;
-  }
-  
-  .file-input:hover {
-    border-color: #4a90e2;
-  }
-  
-  .file-content {
-    margin-top: 20px;
-  }
-  
-  .file-content h4 {
-    font-size: 18px;
-    color: #4a90e2;
-    margin-bottom: 12px;
-  }
-  
-  pre {
-    background-color: #f0f0f0;
-    padding: 15px;
-    border-radius: 4px;
-    overflow-x: auto;
-    font-size: 14px;
-    color: #333;
-  }
-  
+/* Container styling */
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  font-family: Arial, sans-serif;
+}
+
+/* Main upload box styling */
+.upload-box {
+  width: 300px;
+  height: 150px;
+  background-color: #e3f2fd;
+  border: 2px dashed #64b5f6;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.upload-box:hover {
+  background-color: #bbdefb;
+  border-color: #42a5f5;
+}
+
+/* Upload text */
+.upload-text {
+  color: #1e88e5;
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 0 10px;
+}
+
+/* Styling for error message */
+.error-message {
+  font-size: 0.9rem;
+  color: #d32f2f;
+  margin-top: 15px;
+}
